@@ -188,5 +188,5 @@ function etiketGirisi(satirNo = null){
   sfMain.getRange("M"+yeniSatir).setValue("ST")
   if(!sfMain.getRange("B"+yeniSatir).getValue())
     sfMain.getRange("B"+yeniSatir).setValue("FirmaAdı")
-
+  //değiişiklik
 }
